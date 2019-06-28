@@ -1,0 +1,78 @@
+.navContainer {
+  display: flex;
+  background: #121212;
+  flex-direction: column;
+  justify-content: center;
+  height: 95vh;
+}
+.menuItem {
+  order: 1;
+  margin-top: 10px;
+  margin-left: 10px;
+  a {
+    color: #999;
+    font-size: 1.6rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 900;
+  }
+}
+.menuFooterItem {
+  height: 5vh;
+  order: 6;
+  // margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 1vh;
+  align-self: flex-end;
+  background: #efefef;
+  a {
+    color: #121212;
+    font-size: 1.4rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 900;
+  }
+}
+.drawerClose {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  background: #121212;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  align-items: center;
+}
+.drawer-mask {
+  background: #999 !important;
+}
+.drawerButton {
+  cursor: pointer;
+}
+.mainBackground {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #121212;
+  align-items: center;
+}
+.mainTitle {
+  font-family: 'PT Sans', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.subTitle {
+  font-family: 'PT Sans', sans-serif;
+  color: #999;
+  font-weight: 400;
+}
+.fade-enter {
+  opacity: 1;
+  background: #121212;
+  transform: scale(1.2);
+  z-index: 1;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 550ms ease-in-out;
+}

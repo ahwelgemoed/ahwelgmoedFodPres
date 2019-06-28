@@ -2,14 +2,33 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import IntroPres from './presentations/IntroPres';
+import PresentationList from './PresentationList';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 export default function Main() {
   return (
     <main>
-      <Switch>
-        <Route exact path="/presentations/intro" component={IntroPres} />
-        <Route exact path="/" component={Home} />
-      </Switch>
+      <Route
+        render={({ location }) => (
+          <TransitionGroup>
+            <CSSTransition timeout={500} classNames="fade" key={location.key}>
+              <Switch location={location}>
+                <Route
+                  exact
+                  path="/presentations"
+                  component={PresentationList}
+                />
+                <Route
+                  exact
+                  path="/presentations/intro"
+                  component={IntroPres}
+                />
+                <Route exact path="/" component={Home} />
+              </Switch>
+            </CSSTransition>
+          </TransitionGroup>
+        )}
+      />
     </main>
   );
 }
