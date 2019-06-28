@@ -13,11 +13,12 @@ import {
   Text,
   Appear
 } from 'spectacle';
+import AnimationLottie from './AnimationLottie';
 import createTheme from 'spectacle/lib/themes/default';
 const theme = createTheme(
   {
     primary: 'white',
-    secondary: '#121212',
+    secondary: '#000000',
     tertiary: '#03DAC6',
     quaternary: '#cf6679'
   },
@@ -34,8 +35,16 @@ export default class App extends Component {
         transitionDuration={500}
         theme={theme}
       >
-        <Slide transition={['fade']} bgColor="secondary">
-          <Heading size={1} fit caps lineHeight={1} textColor="primary">
+        <Slide transition={['slide']} bgColor="secondary">
+          {/* <AnimationLottie /> */}
+          <Heading
+            size={1}
+            fit
+            caps
+            lineHeight={1}
+            textColor="primary"
+            textFont="primary"
+          >
             WEB Animation
           </Heading>
           <Text
@@ -63,8 +72,8 @@ export default class App extends Component {
             <Appear>
               <ListItem>
                 <Heading size={5} textColor="primary" textFont="primary">
-                  It's seen as your store from/ sore window - Impress people
-                  with something unique to your product
+                  It's seen as your store front - Impress people with something
+                  unique to your product
                 </Heading>
               </ListItem>
             </Appear>
@@ -85,7 +94,7 @@ export default class App extends Component {
           </List>
         </Slide>
         <Slide transition={['fade']} bgColor="tertiary">
-          <Heading size={1} textColor="primary">
+          <Heading size={3} textColor="primary">
             🚀
           </Heading>
           <Heading size={6} textColor="primary" fit caps>
@@ -93,12 +102,105 @@ export default class App extends Component {
           </Heading>
         </Slide>
         <Slide transition={['fade']} bgColor="quaternary">
-          <Heading size={1} textColor="primary">
+          <Heading size={3} textColor="primary">
             💩
           </Heading>
           <Heading size={6} textColor="primary" fit caps>
             Bad Examples
           </Heading>
+        </Slide>
+        <Slide transition={['fade']} bgColor="tertiary">
+          <Heading size={3} textColor="primary">
+            🔑
+          </Heading>
+          <Heading textColor="primary" caps>
+            Key Concepts
+          </Heading>
+          <List>
+            <Appear>
+              <Heading size={5} textColor="primary" textFont="primary">
+                Keep It Fast
+              </Heading>
+            </Appear>
+            <Appear>
+              <Heading size={5} textColor="primary" textFont="primary">
+                Keep It Interesting
+              </Heading>
+            </Appear>
+            <Appear>
+              <Heading size={5} textColor="primary" textFont="primary">
+                Keep It Relevant
+                <Notes>Hello</Notes>
+              </Heading>
+            </Appear>
+          </List>
+        </Slide>
+        <Slide transition={['slide']} bgColor="secondary">
+          <Heading caps>What We'll Cover</Heading>
+          <List>
+            <Appear>
+              <Heading size={5} textColor="primary" textFont="primary">
+                Basic CSS Animation
+              </Heading>
+            </Appear>
+            <Appear>
+              <Heading size={5} textColor="primary" textFont="primary">
+                Animation In UX
+              </Heading>
+            </Appear>
+            <Appear>
+              <Heading size={5} textColor="primary" textFont="primary">
+                GSAP Animaton Libary
+                <Notes>Hello</Notes>
+              </Heading>
+            </Appear>
+          </List>
+        </Slide>
+        <Slide transition={['fade']} bgColor="secondary">
+          <Heading size={3} textColor="primary">
+            📖
+          </Heading>
+          <Heading caps>Resources</Heading>
+          <Appear>
+            <ListItem>
+              <Text size={2} caps textColor="tertiary" textFont="secondary">
+                <a
+                  style={{ color: '#fff' }}
+                  target="_blank"
+                  href="https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9"
+                >
+                  animation in UX
+                </a>
+              </Text>
+              <Text size={2} caps textColor="tertiary" textFont="secondary">
+                <a
+                  style={{ color: '#fff' }}
+                  target="_blank"
+                  href="https://www.elegantthemes.com/blog/tips-tricks/when-it-makes-sense-to-use-animations-in-web-design"
+                >
+                  When To Use Animation
+                </a>
+              </Text>
+              <Text size={2} caps textColor="tertiary" textFont="secondary">
+                <a
+                  style={{ color: '#fff' }}
+                  target="_blank"
+                  href="https://developers.google.com/web/fundamentals/design-and-ux/animations/css-vs-javascript"
+                >
+                  CSS VS JS
+                </a>
+              </Text>
+              <Text size={2} caps textColor="tertiary" textFont="secondary">
+                <a
+                  style={{ color: '#fff' }}
+                  target="_blank"
+                  href="https://greensock.com/docs"
+                >
+                  GSAP Docs
+                </a>
+              </Text>
+            </ListItem>
+          </Appear>
         </Slide>
       </Deck>
     );
