@@ -17,7 +17,7 @@ export default class AnimationLottie extends React.Component {
     const defaultOptions = {
       loop: true,
       autoplay: true,
-      animationData: require('./lineloading.json'),
+      animationData: require('./data.json'),
       rendererSettings: {
         preserveAspectRatio: 'xMidYMid slice'
       }
@@ -28,7 +28,7 @@ export default class AnimationLottie extends React.Component {
         <Lottie
           options={defaultOptions}
           height={200}
-          width={1000}
+          width={200}
           isStopped={this.state.isStopped}
           isPaused={this.state.isPaused}
         />
