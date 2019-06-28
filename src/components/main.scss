@@ -43,8 +43,29 @@
 .drawer-mask {
   background: #999 !important;
 }
-.drawerButton {
+.drawerButtonRight {
   cursor: pointer;
+  padding: 10px;
+  transition: all 200ms ease-in-out;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  border-bottom: 1px solid #121212;
+  border-radius: 2px;
+  &:hover {
+    border-bottom: 1px solid #fff;
+  }
+}
+.drawerButtonLeft {
+  cursor: pointer;
+  padding: 10px;
+  transition: all 200ms ease-in-out;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  border-bottom: 1px solid #121212;
+  border-radius: 2px;
+  &:hover {
+    border-bottom: 1px solid #fff;
+  }
 }
 .mainBackground {
   height: 90vh;
@@ -59,20 +80,27 @@
   color: #fff;
   font-weight: 700;
   font-size: 3rem;
+  margin-bottom: 2rem;
 }
 .subTitle {
   font-family: 'PT Sans', sans-serif;
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-weight: 700;
   color: #999;
+}
+.subTitleCode {
+  font-family: 'PT Sans', sans-serif;
+  margin-top: 10px;
   font-weight: 400;
+  color: rgb(104, 104, 104);
 }
 .fade-enter {
-  opacity: 1;
   background: #121212;
-  transform: scale(1.2);
+  transform: scale(0.5);
   z-index: 1;
 }
 .fade-enter.fade-enter-active {
-  opacity: 1;
   transform: scale(1);
   transition: all 550ms ease-in-out;
 }

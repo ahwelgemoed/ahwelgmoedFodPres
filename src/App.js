@@ -5,7 +5,7 @@ import Drawer from './components/Drawer';
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div style={{ backgroundColor: '#121212' }}>
         <Drawer />
         <Main />
       </div>
