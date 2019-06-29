@@ -11,7 +11,7 @@
   margin-left: 10px;
   a {
     color: #999;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-family: 'PT Sans', sans-serif;
     font-weight: 900;
   }
@@ -75,6 +75,14 @@
   background: #121212;
   align-items: center;
 }
+.mainBackgroundPages {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #121212;
+  align-items: center;
+}
 .mainTitle {
   font-family: 'PT Sans', sans-serif;
   color: #fff;
@@ -95,6 +103,48 @@
   font-weight: 400;
   color: rgb(104, 104, 104);
 }
+.appDesc {
+  font-family: 'PT Sans', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.techHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60vw;
+}
+
+.techRight {
+  text-align: right;
+  font-family: 'PT Sans', sans-serif;
+  color: #999;
+  font-size: 1.4rem;
+  h4 {
+    align-self: flex-start;
+  }
+}
+.techLeft {
+  width: 50vw;
+  font-family: 'PT Sans', sans-serif;
+  color: #999;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5vh;
+  padding-bottom: 15vh;
+  a {
+    text-decoration: none;
+    color: #999;
+    font-size: 1.2rem;
+  }
+}
+
 .fade-enter {
   background: #121212;
   transform: scale(0.5);

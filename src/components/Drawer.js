@@ -38,7 +38,7 @@ export default class Header extends Component {
           <header>
             <nav className="navContainer">
               <div className="menuItem" onClick={this.onClick}>
-                <Link to="/">DNJ App</Link>
+                <Link to="/dnj">DNJ App</Link>
               </div>
               <div className="menuItem" onClick={this.onClick}>
                 <Link to="/">Minema Chemicals</Link>
