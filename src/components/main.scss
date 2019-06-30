@@ -12,14 +12,13 @@
   a {
     color: #999;
     font-size: 1.2rem;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 900;
+    font-family: 'TechnaSans-Regular';
+    font-weight: 400;
   }
 }
 .menuFooterItem {
   height: 5vh;
   order: 6;
-  // margin-top: 10px;
   padding-left: 10px;
   padding-top: 1vh;
   align-self: flex-end;
@@ -27,8 +26,8 @@
   a {
     color: #121212;
     font-size: 1.4rem;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 900;
+    font-family: 'TechnaSans-Regular';
+    font-weight: 400;
   }
 }
 .drawerClose {
@@ -37,7 +36,7 @@
   height: 10vh;
   background: #121212;
   color: white;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'TechnaSans-Regular';
   align-items: center;
 }
 .drawer-mask {
@@ -101,7 +100,6 @@
 }
 .subTitleCode {
   font-family: 'EnvyCodeR';
-
   margin-top: 10px;
   font-weight: 300;
   color: rgb(104, 104, 104);
@@ -154,7 +152,6 @@
     font-size: 1.2rem;
   }
 }
-
 .fade-enter {
   background: #121212;
   transform: scale(0.5);
