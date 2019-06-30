@@ -80,7 +80,6 @@ export default class DNJAPP extends Component {
           <div className="techRight">
             <p>React</p>
             <p>React-Native</p>
-            <p>Expo</p>
             <p>Express</p>
             <p>MongoDB</p>
             <p>NodeMailer</p>

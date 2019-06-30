@@ -36,10 +36,11 @@ export default class Minema extends Component {
               very Basic HTML and CSS. Expanding their E-Comerese Store.
             </h4>
             <h4 className="appDesc">
-              I aslo build Minema a custom Backend to manage their documents.
-              The solution is a web app where customers can find offical
-              documents. Minema emploeyes uses the app to load amd create
-              documents. the wherehouse uses it to print GHS Standard labels
+              I also build Minema a custom Backend to manage their documents for
+              the sale of Chemicals. The solution is a web app where customers
+              can find official documents. Minema employees uses the app to load
+              and create documents, the warehouse uses it to print GHS Standard
+              labels.
             </h4>
             <h4 className="appDesc">
               Contribution : Front End, Backend and Design
