@@ -16,7 +16,7 @@ export default class Home extends Component {
           <i>front_end_developer</i>
         </h3>
         <h4 className="subTitleCode">
-          <i>_anythingJavascript_</i>
+          <i>#roadtofullstack</i>
         </h4>
       </div>
     );

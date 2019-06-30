@@ -4,3 +4,9 @@
   font-weight: 400;
   src: url('./fonts/TechnaSans-Regular.otf');
 }
+@font-face {
+  font-family: 'EnvyCodeR';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Envy-Code-R.ttf');
+}
