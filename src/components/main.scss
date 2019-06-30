@@ -47,7 +47,8 @@
   cursor: pointer;
   padding: 10px;
   transition: all 200ms ease-in-out;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'TechnaSans-Regular';
+  letter-spacing: 0.1rem;
   font-weight: 700;
   border-bottom: 1px solid #121212;
   border-radius: 2px;
@@ -59,7 +60,8 @@
   cursor: pointer;
   padding: 10px;
   transition: all 200ms ease-in-out;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'TechnaSans-Regular';
+  letter-spacing: 0.1rem;
   font-weight: 700;
   border-bottom: 1px solid #121212;
   border-radius: 2px;
@@ -84,7 +86,7 @@
   align-items: center;
 }
 .mainTitle {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'TechnaSans-Regular';
   color: #fff;
   font-weight: 700;
   font-size: 3rem;
@@ -100,15 +102,16 @@
 .subTitleCode {
   font-family: 'PT Sans', sans-serif;
   margin-top: 10px;
-  font-weight: 400;
+  font-weight: 300;
   color: rgb(104, 104, 104);
 }
 .appDesc {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #fff;
-  font-weight: 400;
-  font-size: 1.4rem;
+  font-weight: 300;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
+  text-align: justify;
 }
 .techHolder {
   display: flex;
@@ -119,16 +122,16 @@
 
 .techRight {
   text-align: right;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'TechnaSans-Regular';
   color: #999;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   h4 {
     align-self: flex-start;
   }
 }
 .techLeft {
   width: 50vw;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'TechnaSans-Regular';
   color: #999;
   font-weight: 900;
   font-size: 2rem;
@@ -153,4 +156,12 @@
 .fade-enter.fade-enter-active {
   transform: scale(1);
   transition: all 550ms ease-in-out;
+}
+.image-gallery-slide {
+  img {
+    background: #121212;
+  }
+}
+.image-gallery {
+  width: 60vw;
 }
