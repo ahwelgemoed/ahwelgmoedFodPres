@@ -25,7 +25,7 @@ export default class DNJAPP extends Component {
       <div className="mainBackgroundPages">
         <h2 className="mainTitle">DIS NET JY</h2>
         <h3 className="subTitle">
-          <i>Web_&_Native</i>
+          <i>Web | Mobile</i>
         </h3>
         <img className="mainImg" src={four} alt="Logo" />;
         <div className="techHolder">

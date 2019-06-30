@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import DNJAPP from './DNJAPP';
+import Minema from './Minema';
 import IntroPres from './presentations/IntroPres';
 import PresentationList from './PresentationList';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
@@ -14,6 +15,7 @@ export default function Main() {
           <TransitionGroup>
             <CSSTransition timeout={500} classNames="fade" key={location.key}>
               <Switch location={location}>
+                <Route exact path="/minema" component={Minema} />
                 <Route exact path="/dnj" component={DNJAPP} />
                 <Route
                   exact
