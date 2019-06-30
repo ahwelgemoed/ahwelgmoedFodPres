@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import CodeLottie from './CodeLottie';
+import { IoIosMail, IoLogoInstagram, IoLogoGithub } from 'react-icons/io';
 
 export default class Home extends Component {
   onClick = () => {
@@ -18,6 +19,30 @@ export default class Home extends Component {
         <h4 className="subTitleCode">
           <i>#roadtofullstack</i>
         </h4>
+        <div className="homeLinks">
+          <a
+            className=""
+            target="_blank"
+            href="https://www.instagram.com/ahwelgemoed"
+          >
+            <IoLogoInstagram />
+          </a>
+
+          <a
+            className=""
+            target="_blank"
+            href="https://github.com/ahwelgemoed/"
+          >
+            <IoLogoGithub />
+          </a>
+          <a
+            className=""
+            target="_top"
+            href="mailto:arno.welgemoed@outlook.com"
+          >
+            <IoIosMail />
+          </a>
+        </div>
       </div>
     );
   }
