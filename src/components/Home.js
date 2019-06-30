@@ -11,10 +11,13 @@ export default class Home extends Component {
     return (
       <div className="mainBackground">
         <CodeLottie />
-        <h2 className="mainTitle">A.H WELGEMOED</h2>
+        <h2 className="mainTitle">A.H. WELGEMOED</h2>
         <h3 className="subTitle">
           <i>front_end_developer</i>
         </h3>
+        <h4 className="subTitleCode">
+          <i>_anythingJavascript_</i>
+        </h4>
       </div>
     );
   }

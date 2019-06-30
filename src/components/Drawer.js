@@ -22,15 +22,15 @@ export default class Header extends Component {
     return (
       <div>
         <div className="drawerClose">
-          <div className="drawerButton" onClick={this.onClick}>
-            View Projects
+          <div className="drawerButtonLeft" onClick={this.onClick}>
+            <i>View Projects</i>
           </div>
-          <div className="drawerButton" onClick={this.onClickRight}>
-            <i>View Presentaions</i>
+          <div className="drawerButtonRight" onClick={this.onClickRight}>
+            <i>View Presentation</i>
           </div>
         </div>
         <Drawer
-          width="30vw"
+          width="20vw"
           handler={false}
           open={this.state.open}
           onMaskClick={this.onClick}
@@ -38,26 +38,26 @@ export default class Header extends Component {
           <header>
             <nav className="navContainer">
               <div className="menuItem" onClick={this.onClick}>
-                <Link to="/">DNJ App</Link>
+                <Link to="/dnj">DNJ App</Link>
               </div>
               <div className="menuItem" onClick={this.onClick}>
                 <Link to="/">Minema Chemicals</Link>
               </div>
               <div className="menuItem" onClick={this.onClick}>
-                <Link to="/presentations/intro">nuDynamics</Link>
+                <Link to="/">nuDynamics</Link>
               </div>
               <div className="menuItem" onClick={this.onClick}>
-                <Link to="/presentations/intro">Friends Of Design</Link>
+                <Link to="/">Friends Of Design</Link>
               </div>
             </nav>
             <div className="menuFooterItem" onClick={this.onClick}>
-              <Link to="/presentations/intro">Contact</Link>
+              <Link to="/contactMe">Contact</Link>
             </div>
           </header>
         </Drawer>
         {/* Presentaion Drawer */}
         <Drawer
-          width="30vw"
+          width="20vw"
           handler={false}
           open={this.state.openRight}
           onMaskClick={this.onClickRight}
@@ -69,11 +69,11 @@ export default class Header extends Component {
                 <Link to="/presentations/intro">Day One</Link>
               </div>
               <div className="menuItem" onClick={this.onClickRight}>
-                <Link to="/presentations">PresentationList</Link>
+                <Link to="/presentations">Presentations List</Link>
               </div>
             </nav>
             <div className="menuFooterItem" onClick={this.onClick}>
-              <Link to="/presentations/intro">Contact</Link>
+              <Link to="/contactMe">Contact</Link>
             </div>
           </header>
         </Drawer>
