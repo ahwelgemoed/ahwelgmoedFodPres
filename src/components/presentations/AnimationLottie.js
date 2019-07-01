@@ -17,7 +17,7 @@ export default class AnimationLottie extends React.Component {
     const defaultOptions = {
       loop: true,
       autoplay: true,
-      animationData: require('./data.json'),
+      animationData: this.props.data,
       rendererSettings: {
         preserveAspectRatio: 'xMidYMid slice'
       }
