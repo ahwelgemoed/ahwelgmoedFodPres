@@ -47,6 +47,15 @@ export default class AnimationInUx extends Component {
             >
               Animation in Ux
             </Heading>
+            <Text
+              size={4}
+              caps
+              margin="50px 10px 10px 10px"
+              textColor="quaternary"
+              textFont="secondary"
+            >
+              Quick Overview
+            </Text>
           </Slide>
           <Slide transition={['fade']} bgColor="secondary">
             <Heading
