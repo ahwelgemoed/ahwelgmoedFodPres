@@ -68,11 +68,14 @@ export default class Header extends Component {
         >
           <header>
             <nav className="navContainer">
-              <div className="menuItem" onClick={this.onClick}>
+              <div className="menuItem" onClick={this.onClickRight}>
                 <Link to="/">Home</Link>
               </div>
               <div className="menuItem" onClick={this.onClickRight}>
                 <Link to="/presentations/intro">Day One</Link>
+              </div>
+              <div className="menuItem" onClick={this.onClickRight}>
+                <Link to="/presentations/AnimationInUx">Animation in UX</Link>
               </div>
               <div className="menuItem" onClick={this.onClickRight}>
                 <Link to="/presentations">Presentations List</Link>

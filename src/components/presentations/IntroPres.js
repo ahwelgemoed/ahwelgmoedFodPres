@@ -36,7 +36,7 @@ export default class IntroPres extends Component {
           theme={theme}
         >
           <Slide transition={['fade']} bgColor="secondary">
-            <AnimationLottie />
+            <AnimationLottie data={require('./data.json')} />
             <Heading
               size={1}
               fit
@@ -72,15 +72,14 @@ export default class IntroPres extends Component {
               <Appear>
                 <ListItem>
                   <Heading size={5} textColor="primary" textFont="primary">
-                    It's seen as your store front - Impress people with
-                    something unique to your product
+                    It's seen as your store front - Showcase you product/service
                   </Heading>
                 </ListItem>
               </Appear>
               <Appear>
                 <ListItem>
                   <Heading size={5} textColor="primary" textFont="primary">
-                    "Force" User flow - UX
+                    Show User flow - UX
                   </Heading>
                 </ListItem>
               </Appear>
@@ -99,6 +98,10 @@ export default class IntroPres extends Component {
             </Heading>
             <Heading size={6} textColor="primary" fit caps>
               Good Examples
+              <Notes>
+                Facebook APP,Uber ,Tinder(Swipe Right) ,Apple
+                (https://www.apple.com/iphone-xr/), Apple Wrong Login
+              </Notes>
             </Heading>
           </Slide>
           <Slide transition={['fade']} bgColor="quaternary">
@@ -108,13 +111,14 @@ export default class IntroPres extends Component {
             <Heading size={6} textColor="primary" fit caps>
               Bad Examples
             </Heading>
+            <Notes>https://blinkee.com/ , mto,http://art.yale.edu/</Notes>
           </Slide>
           <Slide transition={['fade']} bgColor="tertiary">
             <Heading size={3} textColor="primary">
               🔑
             </Heading>
             <Heading textColor="primary" caps>
-              Key Concepts
+              Some Concepts to Keep in Mind
             </Heading>
             <List>
               <Appear>
@@ -140,12 +144,12 @@ export default class IntroPres extends Component {
             <List>
               <Appear>
                 <Heading size={5} textColor="primary" textFont="primary">
-                  Basic CSS Animation
+                  Animation for UX
                 </Heading>
               </Appear>
               <Appear>
                 <Heading size={5} textColor="primary" textFont="primary">
-                  Animation In UX
+                  Basic CSS Animation
                 </Heading>
               </Appear>
               <Appear>
@@ -197,6 +201,33 @@ export default class IntroPres extends Component {
                     href="https://greensock.com/docs"
                   >
                     GSAP Docs
+                  </a>
+                </Text>
+                <Text size={2} caps textColor="tertiary" textFont="secondary">
+                  <a
+                    style={{ color: '#fff' }}
+                    target="_blank"
+                    href="https://daneden.github.io/animate.css/"
+                  >
+                    Animate.css
+                  </a>
+                </Text>
+                <Text size={2} caps textColor="tertiary" textFont="secondary">
+                  <a
+                    style={{ color: '#fff' }}
+                    target="_blank"
+                    href="https://animejs.com/"
+                  >
+                    animeJs
+                  </a>
+                </Text>
+                <Text size={2} caps textColor="tertiary" textFont="secondary">
+                  <a
+                    style={{ color: '#fff' }}
+                    target="_blank"
+                    href="https://threejs.org/"
+                  >
+                    threeJs
                   </a>
                 </Text>
               </ListItem>
