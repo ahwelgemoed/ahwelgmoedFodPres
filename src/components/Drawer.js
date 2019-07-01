@@ -23,10 +23,10 @@ export default class Header extends Component {
       <div>
         <div className="drawerClose">
           <div className="drawerButtonLeft" onClick={this.onClick}>
-            <i>View Projects</i>
+            Projects
           </div>
           <div className="drawerButtonRight" onClick={this.onClickRight}>
-            <i>View Presentation</i>
+            Presentations
           </div>
         </div>
         <Drawer

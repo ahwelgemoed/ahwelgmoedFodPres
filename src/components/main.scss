@@ -183,3 +183,31 @@
     margin: 10px;
   }
 }
+
+$breakpoint-tablet: 768px;
+@media (max-width: $breakpoint-tablet) {
+  .drawer-content-wrapper {
+    width: 80vw !important;
+  }
+  .mainTitle {
+    text-align: center;
+  }
+  .subTitle {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .mainImg {
+    height: initial;
+  }
+  .techHolder {
+    flex-direction: column;
+    width: initial;
+    .techLeft {
+      width: 80vw;
+    }
+    .techRight {
+      width: 80vw;
+      text-align: left;
+    }
+  }
+}
