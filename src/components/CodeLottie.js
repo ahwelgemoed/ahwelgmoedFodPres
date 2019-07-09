@@ -9,11 +9,6 @@ export default class CodeLottie extends React.Component {
   }
 
   render() {
-    const buttonStyle = {
-      display: 'block',
-      margin: '10px auto'
-    };
-
     const defaultOptions = {
       loop: false,
       autoplay: true,

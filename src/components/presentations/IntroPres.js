@@ -1,14 +1,5 @@
 import React, { Component } from 'react';
-import {
-  Deck,
-  Heading,
-  List,
-  ListItem,
-  Notes,
-  Slide,
-  Text,
-  Appear
-} from 'spectacle';
+import { Deck, Heading, List, ListItem, Notes, Slide, Text } from 'spectacle';
 
 import AnimationLottie from './AnimationLottie';
 import BackHomeButton from './BackHomeButton';
@@ -69,27 +60,17 @@ export default class IntroPres extends Component {
           <Slide transition={['fade']} bgColor="secondary">
             <Heading caps>Why Use Web Animation</Heading>
             <List>
-              <Appear>
-                <ListItem>
-                  <Heading size={5} textColor="primary" textFont="primary">
-                    It's seen as your store front - Showcase you product/service
-                  </Heading>
-                </ListItem>
-              </Appear>
-              <Appear>
-                <ListItem>
-                  <Heading size={5} textColor="primary" textFont="primary">
-                    Show User flow - UX
-                  </Heading>
-                </ListItem>
-              </Appear>
-              <Appear>
-                <ListItem>
-                  <Heading size={5} textColor="primary" textFont="primary">
-                    It's Fun
-                  </Heading>
-                </ListItem>
-              </Appear>
+              <ListItem>
+                <Heading size={5} textColor="primary" textFont="primary">
+                  It's seen as your store front - Showcase you product/service
+                </Heading>
+              </ListItem>
+
+              <ListItem>
+                <Heading size={5} textColor="primary" textFont="primary">
+                  Show User flow - UX
+                </Heading>
+              </ListItem>
             </List>
           </Slide>
           <Slide transition={['fade']} bgColor="tertiary">
@@ -99,7 +80,7 @@ export default class IntroPres extends Component {
             <Heading size={6} textColor="primary" fit caps>
               Good Examples
               <Notes>
-                Facebook APP,Uber ,Tinder(Swipe Right) ,Apple
+                Facebook APP,Uber Easts ,Tinder(Swipe Right) ,Apple
                 (https://www.apple.com/iphone-xr/), Apple Wrong Login
               </Notes>
             </Heading>
@@ -121,43 +102,30 @@ export default class IntroPres extends Component {
               Some Concepts to Keep in Mind
             </Heading>
             <List>
-              <Appear>
-                <Heading size={5} textColor="primary" textFont="primary">
-                  Keep It Fast
-                </Heading>
-              </Appear>
-              <Appear>
-                <Heading size={5} textColor="primary" textFont="primary">
-                  Keep It Interesting
-                </Heading>
-              </Appear>
-              <Appear>
-                <Heading size={5} textColor="primary" textFont="primary">
-                  Keep It Relevant
-                  <Notes>Hello</Notes>
-                </Heading>
-              </Appear>
+              <Heading size={5} textColor="primary" textFont="primary">
+                Keep It Fast
+              </Heading>
+              <Heading size={5} textColor="primary" textFont="primary">
+                Keep It Interesting
+              </Heading>
+              <Heading size={5} textColor="primary" textFont="primary">
+                Keep It Relevant
+                <Notes>Hello</Notes>
+              </Heading>
             </List>
           </Slide>
           <Slide transition={['slide']} bgColor="secondary">
             <Heading caps>What We'll Cover</Heading>
             <List>
-              <Appear>
-                <Heading size={5} textColor="primary" textFont="primary">
-                  Animation for UX
-                </Heading>
-              </Appear>
-              <Appear>
-                <Heading size={5} textColor="primary" textFont="primary">
-                  Basic CSS Animation
-                </Heading>
-              </Appear>
-              <Appear>
-                <Heading size={5} textColor="primary" textFont="primary">
-                  GSAP Animaton Libary
-                  <Notes>Hello</Notes>
-                </Heading>
-              </Appear>
+              <Heading size={5} textColor="primary" textFont="primary">
+                Animation for UX
+              </Heading>
+              <Heading size={5} textColor="primary" textFont="primary">
+                Basic CSS Animation
+              </Heading>
+              <Heading size={5} textColor="primary" textFont="primary">
+                GSAP Animation Library
+              </Heading>
             </List>
           </Slide>
           <Slide transition={['fade']} bgColor="secondary">
@@ -165,73 +133,72 @@ export default class IntroPres extends Component {
               📖
             </Heading>
             <Heading caps>Resources</Heading>
-            <Appear>
-              <ListItem>
-                <Text size={2} caps textColor="tertiary" textFont="secondary">
-                  <a
-                    style={{ color: '#fff' }}
-                    target="_blank"
-                    href="https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9"
-                  >
-                    animation in UX
-                  </a>
-                </Text>
-                <Text size={2} caps textColor="tertiary" textFont="secondary">
-                  <a
-                    style={{ color: '#fff' }}
-                    target="_blank"
-                    href="https://www.elegantthemes.com/blog/tips-tricks/when-it-makes-sense-to-use-animations-in-web-design"
-                  >
-                    When To Use Animation
-                  </a>
-                </Text>
-                <Text size={2} caps textColor="tertiary" textFont="secondary">
-                  <a
-                    style={{ color: '#fff' }}
-                    target="_blank"
-                    href="https://developers.google.com/web/fundamentals/design-and-ux/animations/css-vs-javascript"
-                  >
-                    CSS VS JS
-                  </a>
-                </Text>
-                <Text size={2} caps textColor="tertiary" textFont="secondary">
-                  <a
-                    style={{ color: '#fff' }}
-                    target="_blank"
-                    href="https://greensock.com/docs"
-                  >
-                    GSAP Docs
-                  </a>
-                </Text>
-                <Text size={2} caps textColor="tertiary" textFont="secondary">
-                  <a
-                    style={{ color: '#fff' }}
-                    target="_blank"
-                    href="https://daneden.github.io/animate.css/"
-                  >
-                    Animate.css
-                  </a>
-                </Text>
-                <Text size={2} caps textColor="tertiary" textFont="secondary">
-                  <a
-                    style={{ color: '#fff' }}
-                    target="_blank"
-                    href="https://animejs.com/"
-                  >
-                    animeJs
-                  </a>
-                </Text>
-                <Text size={2} caps textColor="tertiary" textFont="secondary">
-                  <a
-                    style={{ color: '#fff' }}
-                    target="_blank"
-                    href="https://threejs.org/"
-                  >
-                    threeJs
-                  </a>
-                </Text>
-              </ListItem>
-            </Appear>
+
+            <ListItem>
+              <Text size={2} caps textColor="tertiary" textFont="secondary">
+                <a
+                  style={{ color: '#fff' }}
+                  target="_blank"
+                  href="https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9"
+                >
+                  animation in UX
+                </a>
+              </Text>
+              <Text size={2} caps textColor="tertiary" textFont="secondary">
+                <a
+                  style={{ color: '#fff' }}
+                  target="_blank"
+                  href="https://www.elegantthemes.com/blog/tips-tricks/when-it-makes-sense-to-use-animations-in-web-design"
+                >
+                  When To Use Animation
+                </a>
+              </Text>
+              <Text size={2} caps textColor="tertiary" textFont="secondary">
+                <a
+                  style={{ color: '#fff' }}
+                  target="_blank"
+                  href="https://developers.google.com/web/fundamentals/design-and-ux/animations/css-vs-javascript"
+                >
+                  CSS VS JS
+                </a>
+              </Text>
+              <Text size={2} caps textColor="tertiary" textFont="secondary">
+                <a
+                  style={{ color: '#fff' }}
+                  target="_blank"
+                  href="https://greensock.com/docs"
+                >
+                  GSAP Docs
+                </a>
+              </Text>
+              <Text size={2} caps textColor="tertiary" textFont="secondary">
+                <a
+                  style={{ color: '#fff' }}
+                  target="_blank"
+                  href="https://daneden.github.io/animate.css/"
+                >
+                  Animate.css
+                </a>
+              </Text>
+              <Text size={2} caps textColor="tertiary" textFont="secondary">
+                <a
+                  style={{ color: '#fff' }}
+                  target="_blank"
+                  href="https://animejs.com/"
+                >
+                  animeJs
+                </a>
+              </Text>
+              <Text size={2} caps textColor="tertiary" textFont="secondary">
+                <a
+                  style={{ color: '#fff' }}
+                  target="_blank"
+                  href="https://threejs.org/"
+                >
+                  threeJs
+                </a>
+              </Text>
+            </ListItem>
           </Slide>
         </Deck>
       </div>

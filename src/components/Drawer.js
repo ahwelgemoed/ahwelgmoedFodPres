@@ -50,7 +50,7 @@ export default class Header extends Component {
                 <Link to="/">nuDynamics</Link>
               </div>
               <div className="menuItem" onClick={this.onClick}>
-                <Link to="/">Friends Of Design</Link>
+                <Link to="/horizontaltextscroll">NPM Package</Link>
               </div>
             </nav>
             <div className="menuFooterItem" onClick={this.onClick}>
