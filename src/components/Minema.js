@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { MdComputer } from 'react-icons/md';
-import { FaGooglePlay, FaAppStore, FaGithub } from 'react-icons/fa';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import one from './images/Minema1.png';

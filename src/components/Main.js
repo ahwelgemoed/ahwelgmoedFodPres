@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import DNJAPP from './DNJAPP';
 import Minema from './Minema';
+import Horizontaltextscroll from './Horizontaltextscroll';
 import IntroPres from './presentations/IntroPres';
 import AnimationInUx from './presentations/AnimationInUx';
 import PresentationList from './PresentationList';
@@ -18,6 +19,11 @@ export default function Main() {
               <Switch location={location}>
                 <Route exact path="/minema" component={Minema} />
                 <Route exact path="/dnj" component={DNJAPP} />
+                <Route
+                  exact
+                  path="/horizontaltextscroll"
+                  component={Horizontaltextscroll}
+                />
                 <Route
                   exact
                   path="/presentations"

@@ -1,14 +1,5 @@
 import React, { Component } from 'react';
-import {
-  Deck,
-  Heading,
-  List,
-  ListItem,
-  Notes,
-  Slide,
-  Text,
-  Appear
-} from 'spectacle';
+import { Deck, Heading, Notes, Slide, Text } from 'spectacle';
 
 import AnimationLottie from './AnimationLottie';
 import BackHomeButton from './BackHomeButton';
@@ -66,7 +57,7 @@ export default class AnimationInUx extends Component {
               textColor="primary"
               textFont="primary"
             >
-              What Do You Idealy want to convey?
+              What Do You Ideally want to convey?
             </Heading>
             <Text
               size={4}
@@ -75,7 +66,7 @@ export default class AnimationInUx extends Component {
               textColor="quaternary"
               textFont="secondary"
             >
-              Speed and Relavency
+              Speed and Relevance
             </Text>
             <Text
               size={4}
@@ -84,7 +75,16 @@ export default class AnimationInUx extends Component {
               textColor="quaternary"
               textFont="secondary"
             >
-              Workig with the constraints of Tech
+              Working with the constraints of Tech
+            </Text>
+            <Text
+              size={4}
+              caps
+              margin="50px 10px 10px 10px"
+              textColor="quaternary"
+              textFont="secondary"
+            >
+              Show what you have and bring in what is outstanding.
             </Text>
             <Text
               size={6}
@@ -93,9 +93,8 @@ export default class AnimationInUx extends Component {
               textColor="quaternary"
               textFont="secondary"
             >
-              i.e. Images will almost always be deliverd with greater delay
-              (Push for SVG's above Img's) Show what you have and bring in what
-              is outstanding intresting
+              i.e. Images will almost always be delivered with greater delay
+              (Push for SVG's above Img's)
             </Text>
           </Slide>
           <Slide transition={['fade']} bgColor="secondary">

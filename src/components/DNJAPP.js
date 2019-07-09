@@ -40,7 +40,11 @@ export default class DNJAPP extends Component {
               It transformed into an Web app with an custom Express Backend.
               After being live for about a day we <i>merged</i>
               with Klyntji to grow our audience. Read more here about{' '}
-              <a target="_blank" href="https://klyntji.com/">
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://klyntji.com/"
+              >
                 Klyntji
               </a>
               . (TL;DR - Its an Art Blog)
@@ -58,21 +62,31 @@ export default class DNJAPP extends Component {
             </h4>
             <div className="links">
               <a
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://apps.apple.com/us/app/dis-net-jy/id1462187171?ls=1"
               >
                 <FaAppStore /> iOS
               </a>
               <a
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://play.google.com/store/apps/details?id=com.disnetons.googlesignin"
               >
                 <FaGooglePlay /> Android
               </a>
-              <a target="_blank" href="http://www.disnetjy.com/">
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="http://www.disnetjy.com/"
+              >
                 <MdComputer /> Web
               </a>
-              <a target="_blank" href="https://github.com/ahwelgemoed/dnjRN">
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/ahwelgemoed/dnjRN"
+              >
                 <FaGithub /> Github
               </a>
             </div>

@@ -23,6 +23,7 @@ export default class Home extends Component {
           <a
             className=""
             target="_blank"
+            rel="noopener noreferrer"
             href="https://www.instagram.com/ahwelgemoed"
           >
             <IoLogoInstagram />
@@ -31,6 +32,7 @@ export default class Home extends Component {
           <a
             className=""
             target="_blank"
+            rel="noopener noreferrer"
             href="https://github.com/ahwelgemoed/"
           >
             <IoLogoGithub />
