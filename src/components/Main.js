@@ -4,6 +4,7 @@ import Home from './Home';
 import DNJAPP from './DNJAPP';
 import Minema from './Minema';
 import Horizontaltextscroll from './Horizontaltextscroll';
+import nuDynamics from './nuDynamics';
 import IntroPres from './presentations/IntroPres';
 import AnimationInUx from './presentations/AnimationInUx';
 import PresentationList from './PresentationList';
@@ -34,6 +35,7 @@ export default function Main() {
                   path="/presentations/intro"
                   component={IntroPres}
                 />
+                <Route exact path="/nuDynamics" component={nuDynamics} />
                 <Route
                   exact
                   path="/presentations/AnimationInUx"

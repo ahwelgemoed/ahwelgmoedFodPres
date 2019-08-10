@@ -22,7 +22,7 @@ export default class IntroPres extends Component {
       <div>
         <BackHomeButton />
         <Deck
-          transition={['zoom', 'slide']}
+          transition={['fade', 'slide']}
           transitionDuration={500}
           theme={theme}
         >
@@ -56,6 +56,7 @@ export default class IntroPres extends Component {
             >
               A.H.Welgemoed
             </Text>
+            <Notes>into - Css andimation - Then greensock - who I am</Notes>
           </Slide>
           <Slide transition={['fade']} bgColor="secondary">
             <Heading caps>Why Use Web Animation</Heading>
@@ -114,7 +115,7 @@ export default class IntroPres extends Component {
               </Heading>
             </List>
           </Slide>
-          <Slide transition={['slide']} bgColor="secondary">
+          <Slide transition={['fade']} bgColor="secondary">
             <Heading caps>What We'll Cover</Heading>
             <List>
               <Heading size={5} textColor="primary" textFont="primary">

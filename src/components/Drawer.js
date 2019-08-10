@@ -17,7 +17,6 @@ export default class Header extends Component {
       openRight: !this.state.openRight
     });
   };
-  rende;
   render() {
     return (
       <div>
@@ -47,7 +46,7 @@ export default class Header extends Component {
                 <Link to="/Minema">Minema Chemicals</Link>
               </div>
               <div className="menuItem" onClick={this.onClick}>
-                <Link to="/">nuDynamics</Link>
+                <Link to="/nuDynamics">nuDynamics</Link>
               </div>
               <div className="menuItem" onClick={this.onClick}>
                 <Link to="/horizontaltextscroll">NPM Package</Link>
@@ -78,7 +77,14 @@ export default class Header extends Component {
                 <Link to="/presentations/AnimationInUx">Animation in UX</Link>
               </div>
               <div className="menuItem" onClick={this.onClickRight}>
-                <Link to="/presentations">Presentations List</Link>
+                <a
+                  className=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/ahwelgemoed/fod_Boilerplate"
+                >
+                  Project Files
+                </a>
               </div>
             </nav>
             <div className="menuFooterItem" onClick={this.onClick}>
