@@ -8,6 +8,7 @@ import nuDynamics from './nuDynamics';
 import IntroPres from './presentations/IntroPres';
 import AnimationInUx from './presentations/AnimationInUx';
 import PresentationList from './PresentationList';
+import ScrollMagicGsap from './ScrollMagicGsap';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 export default function Main() {
@@ -34,6 +35,11 @@ export default function Main() {
                   exact
                   path="/presentations/intro"
                   component={IntroPres}
+                />
+                <Route
+                  exact
+                  path="/done/scrollMagicGsap"
+                  component={ScrollMagicGsap}
                 />
                 <Route exact path="/nuDynamics" component={nuDynamics} />
                 <Route

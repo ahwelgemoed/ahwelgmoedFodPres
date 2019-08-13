@@ -77,6 +77,9 @@ export default class Header extends Component {
                 <Link to="/presentations/AnimationInUx">Animation in UX</Link>
               </div>
               <div className="menuItem" onClick={this.onClickRight}>
+                <Link to="/done/scrollMagicGsap">Scroll Magic and GSAP</Link>
+              </div>
+              <div className="menuItem" onClick={this.onClickRight}>
                 <a
                   className=""
                   target="_blank"
