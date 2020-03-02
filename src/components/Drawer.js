@@ -52,9 +52,9 @@ export default class Header extends Component {
                 <Link to="/horizontaltextscroll">NPM Package</Link>
               </div>
             </nav>
-            <div className="menuFooterItem" onClick={this.onClick}>
+            {/* <div className="menuFooterItem" onClick={this.onClick}>
               <Link to="/contactMe">Contact</Link>
-            </div>
+            </div> */}
           </header>
         </Drawer>
         {/* Presentaion Drawer */}
@@ -90,9 +90,9 @@ export default class Header extends Component {
                 </a>
               </div>
             </nav>
-            <div className="menuFooterItem" onClick={this.onClick}>
+            {/* <div className="menuFooterItem" onClick={this.onClick}>
               <Link to="/contactMe">Contact</Link>
-            </div>
+            </div> */}
           </header>
         </Drawer>
       </div>

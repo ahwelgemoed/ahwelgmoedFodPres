@@ -3,7 +3,7 @@
   background: #121212;
   flex-direction: column;
   justify-content: center;
-  height: 95vh;
+  height: 100vh;
 }
 .menuItem {
   order: 1;
@@ -130,6 +130,7 @@
   font-family: 'TechnaSans-Regular';
   color: #999;
   font-size: 1.2rem;
+  min-height: 70vh;
   h4 {
     align-self: flex-start;
   }
